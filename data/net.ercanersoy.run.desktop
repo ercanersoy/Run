@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=0.1
+Type=Application
+Name=Run
+Name[tr]=Çalıştır
+GenericName=Run
+GenericName[tr]=alıştır
+Comment=A helper application for running program
+Comment[tr]=Program çalıştırma için bir yardımcı uygulama
+TryExec=run
+Exec=run
+Icon=gnome-run
+Terminal=false
+Categories=System;GTK;
+StartupNotify=false

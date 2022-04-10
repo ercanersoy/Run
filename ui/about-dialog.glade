@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface domain="run">
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkAboutDialog" id="about-dialog">
+    <property name="can-focus">False</property>
+    <property name="resizable">False</property>
+    <property name="type-hint">dialog</property>
+    <property name="program-name">Run</property>
+    <property name="version">0.1</property>
+    <property name="copyright" translatable="yes">Copyright (c) 2021-2022 Ercan Ersoy</property>
+    <property name="comments" translatable="yes">A helper application for running program</property>
+    <property name="website">https://gitlab.com/ercanersoy/run</property>
+    <property name="website-label" translatable="yes">Website</property>
+    <property name="license" translatable="yes">This software licensed under GNU GPLv2 and GNU GPLv3.</property>
+    <property name="authors">Ercan Ersoy</property>
+    <property name="documenters">Ercan Ersoy</property>
+    <property name="translator-credits" translatable="yes">Ercan Ersoy</property>
+    <property name="artists">Ercan Ersoy</property>
+    <property name="logo-icon-name">system-run</property>
+    <property name="license-type">custom</property>
+    <child internal-child="vbox">
+      <object class="GtkBox" id="about-dialog-main-box">
+        <property name="can-focus">False</property>
+        <property name="orientation">vertical</property>
+        <property name="spacing">2</property>
+        <child internal-child="action_area">
+          <object class="GtkButtonBox" id="about-dialog-button-box">
+            <property name="can-focus">False</property>
+            <property name="layout-style">end</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
