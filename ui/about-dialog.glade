@@ -12,13 +12,12 @@
     <property name="comments" translatable="yes">A helper application for running program</property>
     <property name="website">https://gitlab.com/ercanersoy/run</property>
     <property name="website-label" translatable="yes">Website</property>
-    <property name="license" translatable="yes">This software licensed under GNU GPLv2 and GNU GPLv3.</property>
     <property name="authors">Ercan Ersoy</property>
     <property name="documenters">Ercan Ersoy</property>
     <property name="translator-credits" translatable="yes">Ercan Ersoy</property>
     <property name="artists">Ercan Ersoy</property>
     <property name="logo-icon-name">system-run</property>
-    <property name="license-type">custom</property>
+    <property name="license-type">gpl-2-0</property>
     <child internal-child="vbox">
       <object class="GtkBox" id="about-dialog-main-box">
         <property name="can-focus">False</property>

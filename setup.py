@@ -56,7 +56,7 @@ setup(
     author='Ercan Ersoy',
     author_email='ercanersoy@ercanersoy.net',
     description='A helper application for running program',
-    license='GPLv2 and GPLv3',
+    license='GPLv2+',
     keywords='run execute',
     url='https://ercanersoy.net',
 )
