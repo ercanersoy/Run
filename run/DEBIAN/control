@@ -1,12 +1,9 @@
-Source: run
+Package: run
+Version: 0.3
+Architecture: all
 Section: unknown
 Priority: optional
 Maintainer: Ercan Ersoy <ercanersoy@ercanersoy.net>
-Build-Depends: debhelper, python3
-Standards-Version: 4.0.0
-Homepage: https://gitlab.com/ercanersoy/run
-
-Package: run
-Architecture: all
 Depends: python3, python3-gi
+Homepage: https://gitlab.com/ercanersoy/run
 Description: A helper application for running program

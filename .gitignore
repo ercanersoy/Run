@@ -1,15 +1,5 @@
-build/
-deb_dist/
-dist/
-Run.egg-info/
-
-*.tar.gz
-
-__pycache__/
-*.py[cod]
-*$py.class
-
 *.glade~
 
 *.po~
-*.mo
+
+*.deb

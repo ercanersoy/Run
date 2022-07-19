@@ -7,10 +7,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Run 0.1\n"
+"Project-Id-Version: Run 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-10 09:48+0300\n"
-"PO-Revision-Date: 2022-04-10 10:05+0300\n"
+"POT-Creation-Date: 2022-07-19 04:34+0300\n"
+"PO-Revision-Date: 2022-07-19 04:02+0300\n"
 "Last-Translator: Ercan Ersoy <ercanersoy@ercanersoy.net>\n"
 "Language-Team: \n"
 "Language: en\n"
@@ -20,34 +20,33 @@ msgstr ""
 "X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ui/main-window.glade:33
+#: ../run/usr/share/run/ui/main-window.glade:33
 msgid "Run with terminal emulator"
 msgstr "Run with terminal emulator"
 
-#: ui/main-window.glade:48
+#: ../run/usr/share/run/ui/main-window.glade:48
 msgid "Run with root privileges"
 msgstr "Run with root privileges"
 
-#: ui/main-window.glade:67
+#: ../run/usr/share/run/ui/main-window.glade:67
 msgid "Run"
 msgstr "Run"
 
-#: ui/about-dialog.glade:11
+#: ../run/usr/share/run/ui/about-dialog.glade:11
 msgid "Copyright (c) 2021-2022 Ercan Ersoy"
 msgstr "Copyright (c) 2021-2022 Ercan Ersoy"
 
-#: ui/about-dialog.glade:12
+#: ../run/usr/share/run/ui/about-dialog.glade:12
 msgid "A helper application for running program"
 msgstr "A helper application for running program"
 
-#: ui/about-dialog.glade:14
+#: ../run/usr/share/run/ui/about-dialog.glade:14
 msgid "Website"
 msgstr "Website"
 
-#: ui/about-dialog.glade:15
-msgid "This software licensed under GNU GPLv2 and GNU GPLv3."
-msgstr "This software licensed under GNU GPLv2 and GNU GPLv3."
-
-#: ui/about-dialog.glade:18
+#: ../run/usr/share/run/ui/about-dialog.glade:17
 msgid "Ercan Ersoy"
 msgstr "Ercan Ersoy"
+
+#~ msgid "This software licensed under GNU GPLv2 and GNU GPLv3."
+#~ msgstr "This software licensed under GNU GPLv2 and GNU GPLv3."

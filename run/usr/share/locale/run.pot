@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: run 0.1\n"
+"Project-Id-Version: run 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-10 10:05+0300\n"
+"POT-Creation-Date: 2022-07-19 04:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,34 +17,30 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ui/main-window.glade:33
+#: ../run/usr/share/run/ui/main-window.glade:33
 msgid "Run with terminal emulator"
 msgstr ""
 
-#: ui/main-window.glade:48
+#: ../run/usr/share/run/ui/main-window.glade:48
 msgid "Run with root privileges"
 msgstr ""
 
-#: ui/main-window.glade:67
+#: ../run/usr/share/run/ui/main-window.glade:67
 msgid "Run"
 msgstr ""
 
-#: ui/about-dialog.glade:11
+#: ../run/usr/share/run/ui/about-dialog.glade:11
 msgid "Copyright (c) 2021-2022 Ercan Ersoy"
 msgstr ""
 
-#: ui/about-dialog.glade:12
+#: ../run/usr/share/run/ui/about-dialog.glade:12
 msgid "A helper application for running program"
 msgstr ""
 
-#: ui/about-dialog.glade:14
+#: ../run/usr/share/run/ui/about-dialog.glade:14
 msgid "Website"
 msgstr ""
 
-#: ui/about-dialog.glade:15
-msgid "This software licensed under GNU GPLv2 and GNU GPLv3."
-msgstr ""
-
-#: ui/about-dialog.glade:18
+#: ../run/usr/share/run/ui/about-dialog.glade:17
 msgid "Ercan Ersoy"
 msgstr ""

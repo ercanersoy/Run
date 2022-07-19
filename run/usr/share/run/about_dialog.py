@@ -21,8 +21,7 @@ from gi.repository import Gtk
 
 class AboutDialog(Gtk.AboutDialog):
     def __init__(self):
-        self.builder = Gtk.Builder().new_from_file('/usr/share/run/'
-                                                   'ui/about-dialog.glade')
+        self.builder = Gtk.Builder().new_from_file('/usr/share/run/ui/about-dialog.glade')
 
         self.AboutDialog = self.builder.get_object('about-dialog')
         self.AboutDialog.run()

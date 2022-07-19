@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# run - Script of Run
+#
+# Copyright (c) 2022 Ercan Ersoy
+#
+# Author: Ercan Ersoy
+#
+
+python3 /usr/share/run/main.py

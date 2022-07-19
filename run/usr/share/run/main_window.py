@@ -10,7 +10,7 @@
 # Imports #
 ###########
 
-from run import about_dialog
+import about_dialog
 
 import subprocess
 
@@ -30,8 +30,7 @@ class MainWindow(object):
 
         self.App = app
 
-        self.builder = Gtk.Builder().new_from_file('/usr/share/run/ui/'
-                                                   'main-window.glade')
+        self.builder = Gtk.Builder().new_from_file('/usr/share/run/ui/main-window.glade')
         self.builder.connect_signals(self)
 
         self.MainWindow = self.builder.get_object('main-window')

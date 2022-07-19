@@ -12,7 +12,7 @@
 # Imports #
 ###########
 
-from run import main_window
+import main_window
 
 import locale
 import os
