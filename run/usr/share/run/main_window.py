@@ -60,13 +60,12 @@ class MainWindow(object):
 
         if len(command_line) != 0:
             if self.run_with_root_privileges:
-                command_line.insert(0, 'pkexec')
+                command_line = 'pkexec ' + command_line
 
             if self.run_with_terminal_emulator:
-                command_line.insert(0, '-e')
-                command_line.insert(0, 'x-terminal-emulator')
+                command_line = 'x-terminal-emulator -e ' + command_line
 
-            subprocess.Popen(command_line)
+            subprocess.Popen(command_line, shell=True)
 
             self.onDestroy()
 
