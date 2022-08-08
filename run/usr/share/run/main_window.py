@@ -56,7 +56,7 @@ class MainWindow(object):
 
     def run(self, button):
         command_entry = self.builder.get_object('command-entry')
-        command_line = command_entry.get_text().split(' ')
+        command_line = command_entry.get_text()
 
         if len(command_line) != 0:
             if self.run_with_root_privileges:
@@ -66,7 +66,7 @@ class MainWindow(object):
                 command_line.insert(0, '-e')
                 command_line.insert(0, 'x-terminal-emulator')
 
-            subprocess.call(command_line)
+            subprocess.Popen(command_line)
 
             self.onDestroy()
 
