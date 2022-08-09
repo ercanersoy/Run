@@ -66,6 +66,7 @@
         <property name="can-focus">False</property>
         <property name="title" translatable="yes">Run</property>
         <property name="has-subtitle">False</property>
+        <property name="show-close-button">True</property>
         <child>
           <object class="GtkButton" id="run-button">
             <property name="visible">True</property>
@@ -97,24 +98,6 @@
           </object>
           <packing>
             <property name="position">1</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkButton" id="exit-button">
-            <property name="visible">True</property>
-            <property name="can-focus">True</property>
-            <property name="receives-default">True</property>
-            <signal name="clicked" handler="exit_program" swapped="no"/>
-            <child>
-              <object class="GtkImage">
-                <property name="visible">True</property>
-                <property name="can-focus">False</property>
-                <property name="icon-name">application-exit</property>
-              </object>
-            </child>
-          </object>
-          <packing>
-            <property name="position">2</property>
           </packing>
         </child>
       </object>

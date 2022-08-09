@@ -71,6 +71,3 @@ class MainWindow(object):
 
     def information(self, button):
         dialog = about_dialog.AboutDialog()
-
-    def exit_program(self, button):
-        self.onDestroy()
