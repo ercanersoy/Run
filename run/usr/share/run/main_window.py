@@ -30,7 +30,8 @@ class MainWindow(object):
 
         self.App = app
 
-        self.builder = Gtk.Builder().new_from_file('/usr/share/run/ui/main-window.glade')
+        self.builder = Gtk.Builder().new_from_file('/usr/share/run/ui/'
+                                                   'main-window.glade')
         self.builder.connect_signals(self)
 
         self.MainWindow = self.builder.get_object('main-window')
@@ -44,8 +45,15 @@ class MainWindow(object):
         run_with_terminal_emulator_checkbox = \
             self.builder.get_object('run-with-terminal-'
                                     'emulator-checkbox')
+        run_with_root_privileges_checkbox = \
+            self.builder.get_object('run-with-root-'
+                                    'privileges-checkbox')
+
         self.run_with_terminal_emulator = \
             run_with_terminal_emulator_checkbox.get_active()
+        run_with_root_privileges_checkbox.set_sensitive(
+            run_with_terminal_emulator_checkbox.get_active()
+        )
 
     def run_with_root_privileges_toggle(self, button):
         run_with_root_privileges_checkbox = \
@@ -60,7 +68,7 @@ class MainWindow(object):
 
         if len(command_line) != 0:
             if self.run_with_root_privileges:
-                command_line = 'x-terminal-emulator -e sudo ' + command_line
+                command_line = 'sudo ' + command_line
 
             if self.run_with_terminal_emulator:
                 command_line = 'x-terminal-emulator -e ' + command_line
