@@ -81,6 +81,7 @@
                 <property name="icon-name">system-run</property>
               </object>
             </child>
+            <accelerator key="Return" signal="clicked"/>
           </object>
         </child>
         <child>
