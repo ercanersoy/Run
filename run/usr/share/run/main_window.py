@@ -60,7 +60,7 @@ class MainWindow(object):
 
         if len(command_line) != 0:
             if self.run_with_root_privileges:
-                command_line = 'pkexec ' + command_line
+                command_line = 'x-terminal-emulator -e sudo ' + command_line
 
             if self.run_with_terminal_emulator:
                 command_line = 'x-terminal-emulator -e ' + command_line

@@ -1,9 +1,9 @@
 Package: run
-Version: 0.3
+Version: 0.4
 Architecture: all
 Section: unknown
 Priority: optional
 Maintainer: Ercan Ersoy <ercanersoy@ercanersoy.net>
-Depends: python3, python3-gi
+Depends: python3, python3-gi, sudo
 Homepage: https://gitlab.com/ercanersoy/run
 Description: A helper application for running program
