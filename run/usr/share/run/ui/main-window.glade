@@ -7,6 +7,7 @@
     <property name="resizable">False</property>
     <property name="default-width">550</property>
     <property name="default-height">175</property>
+    <property name="icon-name">net.ercanersoy.run</property>
     <property name="gravity">south-west</property>
     <child>
       <object class="GtkBox" id="main-box">

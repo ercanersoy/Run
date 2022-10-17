@@ -1,5 +1,5 @@
 [Desktop Entry]
-Version=0.4
+Version=0.5
 Type=Application
 Name=Run
 Name[tr]=Çalıştır
@@ -9,7 +9,7 @@ Comment=A helper application for running program
 Comment[tr]=Program çalıştırma için bir yardımcı uygulama
 TryExec=run
 Exec=run
-Icon=gnome-run
+Icon=net.ercanersoy.run
 Terminal=false
 Categories=System;GTK;
 StartupNotify=false
