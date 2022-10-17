@@ -7,7 +7,6 @@
     <property name="resizable">False</property>
     <property name="type-hint">dialog</property>
     <property name="program-name">Run</property>
-    <property name="version">0.3</property>
     <property name="copyright" translatable="yes">Copyright (c) 2021-2022 Ercan Ersoy</property>
     <property name="comments" translatable="yes">A helper application for running program</property>
     <property name="website">https://gitlab.com/ercanersoy/run</property>
@@ -15,7 +14,6 @@
     <property name="authors">Ercan Ersoy</property>
     <property name="documenters">Ercan Ersoy</property>
     <property name="translator-credits" translatable="yes">Ercan Ersoy</property>
-    <property name="artists">Ercan Ersoy</property>
     <property name="logo-icon-name">system-run</property>
     <property name="license-type">gpl-2-0</property>
     <child internal-child="vbox">

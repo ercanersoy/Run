@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 #
 #  version.py - Run version information script
 #
@@ -8,8 +6,9 @@
 #  Author: Ercan Ersoy
 #
 
+
 ####################
 # Version Variable #
 ####################
 
-version = '0.4'
+version = '0.5'

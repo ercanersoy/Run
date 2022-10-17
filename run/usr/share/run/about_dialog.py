@@ -6,9 +6,12 @@
 # Author: Ercan Ersoy
 #
 
+
 ###########
 # Imports #
 ###########
+
+import version
 
 import gi
 gi.require_version('Gtk', '3.0')
@@ -25,5 +28,6 @@ class AboutDialog(Gtk.AboutDialog):
                                                    'about-dialog.glade')
 
         self.AboutDialog = self.builder.get_object('about-dialog')
+        self.AboutDialog.set_version(version.version)
         self.AboutDialog.run()
         self.AboutDialog.hide()
