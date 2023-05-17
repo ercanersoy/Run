@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Run 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-19 04:33+0300\n"
-"PO-Revision-Date: 2022-07-19 04:01+0300\n"
+"POT-Creation-Date: 2023-05-17 19:54+0300\n"
+"PO-Revision-Date: 2023-05-17 19:55+0300\n"
 "Last-Translator: Ercan Ersoy <ercanersoy@ercanersoy.net>\n"
 "Language-Team: \n"
 "Language: tr\n"
@@ -20,31 +20,31 @@ msgstr ""
 "X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../run/usr/share/run/ui/main-window.glade:33
+#: ../run/usr/share/run/ui/main-window.glade:34
 msgid "Run with terminal emulator"
 msgstr "Uçbirim emulatöründe çalıştır"
 
-#: ../run/usr/share/run/ui/main-window.glade:48
+#: ../run/usr/share/run/ui/main-window.glade:49
 msgid "Run with root privileges"
 msgstr "Yönetici haklarıyla çalıştır"
 
-#: ../run/usr/share/run/ui/main-window.glade:67
+#: ../run/usr/share/run/ui/main-window.glade:68
 msgid "Run"
 msgstr "Çalıştır"
 
-#: ../run/usr/share/run/ui/about-dialog.glade:11
-msgid "Copyright (c) 2021-2022 Ercan Ersoy"
-msgstr "Telif Hakkı (c) 2021-2022 Ercan Ersoy"
+#: ../run/usr/share/run/ui/about-dialog.glade:10
+msgid "Copyright (c) 2021-2023 Ercan Ersoy"
+msgstr "Telif Hakkı (c) 2021-2023 Ercan Ersoy"
 
-#: ../run/usr/share/run/ui/about-dialog.glade:12
+#: ../run/usr/share/run/ui/about-dialog.glade:11
 msgid "A helper application for running program"
 msgstr "Program çalıştırma için yardımcı uygulama"
 
-#: ../run/usr/share/run/ui/about-dialog.glade:14
+#: ../run/usr/share/run/ui/about-dialog.glade:13
 msgid "Website"
 msgstr "Web Sitesi"
 
-#: ../run/usr/share/run/ui/about-dialog.glade:17
+#: ../run/usr/share/run/ui/about-dialog.glade:16
 msgid "Ercan Ersoy"
 msgstr "Ercan Ersoy"
 

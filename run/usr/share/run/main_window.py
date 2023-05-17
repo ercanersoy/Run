@@ -1,7 +1,7 @@
 #
 # main-window.py - Run main window script
 #
-# Copyright (c) 2021-2022 Ercan Ersoy
+# Copyright (c) 2021-2023 Ercan Ersoy
 #
 # Author: Ercan Ersoy
 #
@@ -52,9 +52,6 @@ class MainWindow(object):
 
         self.run_with_terminal_emulator = \
             run_with_terminal_emulator_checkbox.get_active()
-        run_with_root_privileges_checkbox.set_sensitive(
-            run_with_terminal_emulator_checkbox.get_active()
-        )
 
     def run_with_root_privileges_toggle(self, button):
         run_with_root_privileges_checkbox = \
@@ -69,7 +66,8 @@ class MainWindow(object):
 
         if len(command_line) != 0:
             if self.run_with_root_privileges:
-                command_line = 'sudo ' + command_line
+                command_line = 'pkexec env DISPLAY=$DISPLAY ' \
+                               'XAUTHORITY=$XAUTHORITY ' + command_line
 
             if self.run_with_terminal_emulator:
                 command_line = 'x-terminal-emulator -e ' + command_line

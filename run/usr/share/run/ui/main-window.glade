@@ -48,7 +48,6 @@
           <object class="GtkCheckButton" id="run-with-root-privileges-checkbox">
             <property name="label" translatable="yes">Run with root privileges</property>
             <property name="visible">True</property>
-            <property name="sensitive">False</property>
             <property name="can-focus">True</property>
             <property name="receives-default">False</property>
             <property name="draw-indicator">True</property>
